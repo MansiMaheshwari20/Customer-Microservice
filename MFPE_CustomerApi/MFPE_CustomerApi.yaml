@@ -13,8 +13,8 @@ spec:
         app: Mfpecustomerapi
     spec:
       containers:
-      - name: mfpecustomerapirepos
-        image: mansiretailbankingcr.azurecr.io/mfpecustomerapirepos:latest
+      - name: mfpecustomerapireposs
+        image: mansiretailbankingcr.azurecr.io/mfpecustomerapireposs:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
